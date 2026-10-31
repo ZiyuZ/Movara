@@ -9,6 +9,7 @@
 ## 工具分工
 
 - 文件读写、搜索和 Git 操作优先使用 WSL 原生工具。
+- 日常开发不执行 `git diff --check`，仅在提交前按需使用。
 - 编译、运行、测试及 Python 绑定使用 Windows 工具链。Rust 使用 MSVC，明确调用 `cargo.exe`。Windows Cargo 已确认可用。
 - 从 WSL 直接调用 `.exe`；仅在需要 Windows Shell 功能时使用 PowerShell 或 CMD。路径按需用 `wslpath` 转换，Windows/Linux 构建产物分开。
 
@@ -18,6 +19,6 @@
 
 ## 文档约定
 
-- 正式文档面向第三方读者，设计目标与已交付能力分别表述。内部记录放在 `docs/notes/`，正式文档保持自足。工作记录在 `docs/notes/worklog` 中，按日期组织。
+- 正式文档面向第三方读者，维护稳定的设计、接口与规范。任务进度集中在 TODO；详细状态、验证与工作记录放在已忽略的 `.local/notes/`，不纳入 Git。
 - 写作采用正面陈述，概念对照与范围限制独立成句，慎重使用句中否定和转折。具体要求见[文档维护](docs/development.md#文档维护)。
-- Markdown 格式化与检查统一执行 `just rumdl`。
+- Markdown 格式化与检查统一执行 `just rumdl`，常规文档修改以该入口为准。

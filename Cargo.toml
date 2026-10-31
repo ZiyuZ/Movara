@@ -1,6 +1,6 @@
 [workspace]
-members = ["crates/movara-core"]
 resolver = "3"
+members = ["crates/movara-core"]
 
 [workspace.package]
 version = "0.1.0"

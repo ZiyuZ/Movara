@@ -1,2 +1,6 @@
 /target/
 /.cache/
+/.local/
+__pycache__/
+/crates/movara-python/.venv/
+/crates/movara-python/dist/

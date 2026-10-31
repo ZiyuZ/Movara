@@ -17,10 +17,15 @@ Movara 旨在提供独立仿真内核、原生桌面界面和 Python 接口，�
 | 文档 | 内容 |
 | --- | --- |
 | [平台需求](docs/requirements.md) | 使用场景、目标能力和范围边界 |
-| [核心设计](docs/design/core.md) | 系统结构、世界模型、运动、信息、执行与程序接口 |
+| [核心设计](docs/design/core.md) | 系统结构、世界模型、运动、信息与程序接口 |
+| [主体设计](docs/design/agents.md) | 实体与 Agent、主体操作、道路关系及查询 |
+| [运动模型](docs/design/motion.md) | 运动学模型、控制约束、数值推进与接触停驶 |
+| [执行与记录](docs/design/execution.md) | 逻辑时间、共享控制、命令解析、录制与回放 |
 | [桌面界面](docs/design/gui.md) | 交互、显示、信息检查与后续输出 |
+| [Python API](docs/python-api/README.md) | 实例连接、控制回合、查询订阅、定时命令与事件回调 |
 | [开发指南](docs/development.md) | 技术选型、计算后端、工程质量与文档维护 |
 | [行为模型](docs/design/models.md) | 数据、交互样本、模型接入与评价 |
+| [技术原型方案](docs/design/prototype.md) | 原型场景、首轮策略、代码分工与验收范围 |
 | [同类工具对比](docs/comparisons.md) | 定位、能力维度与比较条件 |
 | [路线图](docs/ROADMAP.md) | 阶段目标、交付范围与验收要求 |
 | [工程筹备计划](docs/TODO.md) | 当前议题与筹备进度 |

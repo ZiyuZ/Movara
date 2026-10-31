@@ -37,6 +37,7 @@ exclude = [
   "dist",
   "build",
   ".cache",
+  ".local",
   "target",
 
   # Specific files or patterns

@@ -1,0 +1,37 @@
+[project]
+name = "movara"
+version = "0.1.0"
+description = "Movara Python API 库"
+requires-python = ">=3.14"
+classifiers = ["Private :: Do Not Upload"]
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 110
+format.quote-style = "single"
+lint.select = ["E", "F", "W", "A", "PLC", "PLE", "PLW", "I"]
+lint.per-file-ignores = { "**/{tests,docs,tools,scripts}/*" = [
+  "E402",  # module-import-not-at-top-of-file
+  "E741",  # ambiguous-variable-name
+  "PLC0415",  # import-outside-top-level
+  "PLW0603",  # global-statement
+  "PLW2901",
+], "**/*.ipynb" = [
+  "F401"  # unused-import
+], "**/src/**/*" = [
+  "PLC0415",  # import-outside-top-level
+] }
+
+[tool.ty]
+rules = { invalid-mutable-override = "ignore" }  # 解决 torch 的 forward 报错
+
+[tool.uv]
+index = [{ name = "tsinghua", url = "https://pypi.tuna.tsinghua.edu.cn/simple", default = true }, { name = "pytorch-cu130", url = "https://mirror.sjtu.edu.cn/pytorch-wheels/cu130", explicit = true }]
+sources.torch = [{ index = "pytorch-cu130", marker = "sys_platform != 'darwin'" }]
+sources.torchvision = [{ index = "pytorch-cu130", marker = "sys_platform != 'darwin'" }]
+sources.xformers = [{ index = "pytorch-cu130", marker = "sys_platform != 'darwin'" }]
+sources.triton = [{ index = "pytorch-cu130", marker = "sys_platform != 'darwin'" }]
