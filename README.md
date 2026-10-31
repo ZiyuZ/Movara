@@ -26,6 +26,7 @@ Movara 旨在提供独立仿真内核、原生桌面界面和 Python 接口，�
 | [开发指南](docs/development.md) | 技术选型、计算后端、工程质量与文档维护 |
 | [行为模型](docs/design/models.md) | 数据、交互样本、模型接入与评价 |
 | [技术原型方案](docs/design/prototype.md) | 原型场景、首轮策略、代码分工与验收范围 |
+| [技术验证计划](docs/design/validation.md) | 最小样例、预期结果、采用条件与验证顺序 |
 | [同类工具对比](docs/comparisons.md) | 定位、能力维度与比较条件 |
 | [路线图](docs/ROADMAP.md) | 阶段目标、交付范围与验收要求 |
 | [工程筹备计划](docs/TODO.md) | 当前议题与筹备进度 |
