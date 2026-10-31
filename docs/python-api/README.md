@@ -8,9 +8,11 @@ Movara Python API 库为 Python 程序提供应用连接、场景操作、运行
 
 | 文档 | 内容 |
 | --- | --- |
+| [API 运行模型](runtime.md) | 统一推进、事件循环、运行时序泳道图与多客户端交互 |
 | [连接与会话](session.md) | 连接、启动、自动订阅与生命周期 |
 | [数据与控制](data-and-control.md) | 数据对象、查询、控制回合、批量提交和事件 |
 | [事件与回调](events.md) | Python 回调、实时控制、定时命令及事故处理 |
+| [本机通信](transport.md) | TCP 长连接、消息编码、多实例与启动就绪 |
 | [使用示例](examples.md) | 同步控制、动态查询与观察流程 |
 
 内核与应用的职责见[核心设计](../design/core.md)，命令解析、故障停止与录制规则见[执行与记录](../design/execution.md)。
