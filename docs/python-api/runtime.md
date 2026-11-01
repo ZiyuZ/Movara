@@ -57,7 +57,12 @@ API 在当前驱动入口中分发请求结果、Frame、事件和生命周期�
 
 图中 GUI 是进程内客户端，Python 经 API 与应用通信。箭头表示逻辑调用与消息关系，具体线程和传输方式由实现确定。图示一个逻辑步，连续运行重复使用同一流程。
 
-```mermaid
+![Python API 运行时序](figures/runtime-diagram-1.svg)
+
+<details>
+<summary>图示源码（Mermaid）</summary>
+
+```text
 sequenceDiagram
     participant User as Python 程序
     participant API as Python API 驱动器
@@ -126,6 +131,8 @@ sequenceDiagram
         API-->>User: 回调通知或结束相应等待
     end
 ```
+
+</details>
 
 单步入口已经携带的输入用于履行本连接的当步义务。其他控制方仍按自己的回合提交。事件控制处理后，边界修改先完成，应用再决定返回结果或调度下一逻辑步。
 

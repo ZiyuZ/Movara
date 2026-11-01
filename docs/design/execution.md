@@ -149,7 +149,12 @@ Python 自定义条件可以在逐 Tick 控制回合中判断，也可以按事�
 
 在边界 `k` 发布的控制回合读取固定版本，提交的动作作用于 `[t_k, t_(k+1))`，完成后产生边界 `k+1` 的状态。区间内事件保留自己的发生时刻。控制提交携带的普通世界修改进入后续普通命令窗口，暂停等系统操作继续遵循已定义的边界约束。
 
-```mermaid
+![逻辑步执行阶段](figures/execution-diagram-1.svg)
+
+<details>
+<summary>图示源码（Mermaid）</summary>
+
+```text
 flowchart LR
     BOUNDARY[边界 k：应用普通命令] --> PREPARE[准备阶段：固定版本]
     PREPARE --> QUERY[查询与控制回合]
@@ -160,6 +165,8 @@ flowchart LR
     COMMIT --> EVENTS[边界事件处理：内置选项与控制回调]
     EVENTS --> NEXT[应用命令后准备下一逻辑步]
 ```
+
+</details>
 
 暂停时的普通修改可保持 Tick 并产生新的状态版本。控制回合数据始终对应其固定版本，所需修改结果通过实际生效 Tick 和版本辨识。
 

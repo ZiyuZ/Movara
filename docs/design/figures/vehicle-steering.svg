@@ -1,39 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="title desc">
-  <title id="title">车辆单轨转向几何与参考点</title>
-  <desc id="desc">车辆前进时向左转，后轴参考点位于主体中心后方。轴距 L 为前后轴中点间距，前轮转向角 delta 为前轮方向相对车身前向的夹角。瞬时转向中心位于后轴左侧，后轴轨迹半径 R 等于 L 除以 tan delta。</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8 Z" fill="#2563eb"/></marker>
-    <marker id="angle-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L6 3.5 L0 7 Z" fill="#b45309"/></marker>
-  </defs>
-  <rect width="1040" height="620" rx="16" fill="#ffffff"/>
-  <g font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#172033">
-    <text x="35" y="42" font-size="25" font-weight="600">单轨模型 · 前进左转的瞬时几何</text>
-    <text x="35" y="74" font-size="17" fill="#526177">正转向角对应左转；公开主体原点与内部后轴参考点通过固定变换关联。</text>
-    <path d="M350 400 A300 300 0 0 0 650 100" fill="none" stroke="#93b4ed" stroke-width="2.5" stroke-dasharray="8 6"/>
-    <path d="M350 100 V400 M350 100 L650 400" stroke="#8091a7" stroke-width="2" stroke-dasharray="7 6"/>
-    <circle cx="350" cy="100" r="6" fill="#475569"/>
-    <text x="130" y="125" font-size="18">瞬时转向中心</text>
-    <path d="M245 117 L340 103" stroke="#64748b" stroke-width="1.5"/>
-    <text x="325" y="252" font-size="22" fill="#475569">R</text>
-    <text x="655" y="155" font-size="17" fill="#526177">后轴参考点轨迹</text>
-    <rect x="270" y="342" width="460" height="116" rx="23" fill="#eef3fa" fill-opacity="0.7" stroke="#526177" stroke-width="2"/>
-    <path d="M285 400 H815" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 5"/>
-    <path d="M320 400 H380" stroke="#334155" stroke-width="11" stroke-linecap="round"/>
-    <path d="M629 421 L671 379" stroke="#334155" stroke-width="11" stroke-linecap="round"/>
-    <path d="M650 400 L749 301" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
-    <path d="M729 400 A79 79 0 0 0 706 344" fill="none" stroke="#b45309" stroke-width="2.5" marker-end="url(#angle-arrow)"/>
-    <text x="741" y="369" font-size="21" fill="#92400e">δ</text>
-    <text x="750" y="420" font-size="17" fill="#526177">车身前向</text>
-    <circle cx="350" cy="400" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
-    <circle cx="500" cy="400" r="7" fill="#15803d" stroke="#ffffff" stroke-width="2"/>
-    <path d="M500 390 V310" stroke="#15803d" stroke-width="1.5"/>
-    <text x="440" y="300" font-size="18" fill="#166534">主体原点</text>
-    <text x="90" y="411" font-size="18" fill="#1d4ed8">后轴参考点</text>
-    <path d="M188 404 H339" stroke="#2563eb" stroke-width="1.5"/>
-    <path d="M350 475 V510 M650 475 V510 M350 497 H650" stroke="#64748b" stroke-width="1.5"/>
-    <path d="M350 490 V504 M650 490 V504" stroke="#64748b" stroke-width="2"/>
-    <text x="475" y="520" font-size="19">轴距 L</text>
-    <rect x="35" y="550" width="970" height="49" rx="9" fill="#f4f7fc"/>
-    <text x="53" y="581" font-size="17">R = L / tan(δ)；最小半径由最大转向角决定。车身扫掠范围按完整轮廓计算。</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img"
+    aria-labelledby="title desc">
+    <title id="title">车辆单轨转向几何与参考点</title>
+    <desc id="desc">车辆前进时向左转，后轴参考点位于主体中心后方。轴距 L 为前后轴中点间距，前轮转向角 delta
+        为前轮方向相对车身前向的夹角。瞬时转向中心位于后轴左侧，后轴轨迹半径 R 等于 L 除以 tan delta。</desc>
+    <defs>
+        <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0 L7 4 L0 8 Z" fill="#2563eb" />
+        </marker>
+        <marker id="angle-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+            <path d="M0 0 L6 3.5 L0 7 Z" fill="#b45309" />
+        </marker>
+    </defs>
+    <rect width="1040" height="620" rx="16" fill="#ffffff" />
+    <g font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#172033">
+        <text x="35" y="42" font-size="25" font-weight="600">单轨模型 · 前进左转的瞬时几何</text>
+        <text x="35" y="74" font-size="17" fill="#526177">正转向角对应左转；公开主体原点与内部后轴参考点通过固定变换关联。</text>
+        <path d="M350 400 A300 300 0 0 0 650 100" fill="none" stroke="#93b4ed" stroke-width="2.5"
+            stroke-dasharray="8 6" />
+        <path d="M350 100 V400 M350 100 L650 400" stroke="#8091a7" stroke-width="2"
+            stroke-dasharray="7 6" />
+        <circle cx="350" cy="100" r="6" fill="#475569" />
+        <text x="130" y="125" font-size="18">瞬时转向中心</text>
+        <path d="M245 117 L340 103" stroke="#64748b" stroke-width="1.5" />
+        <text x="325" y="252" font-size="22" fill="#475569">R</text>
+        <text x="655" y="155" font-size="17" fill="#526177">后轴参考点轨迹</text>
+        <rect x="270" y="342" width="460" height="116" rx="23" fill="#eef3fa" fill-opacity="0.7"
+            stroke="#526177" stroke-width="2" />
+        <path d="M285 400 H815" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 5" />
+        <path d="M320 400 H380" stroke="#334155" stroke-width="11" stroke-linecap="round" />
+        <path d="M629 421 L671 379" stroke="#334155" stroke-width="11" stroke-linecap="round" />
+        <path d="M650 400 L749 301" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" />
+        <path d="M729 400 A79 79 0 0 0 706 344" fill="none" stroke="#b45309" stroke-width="2.5"
+            marker-end="url(#angle-arrow)" />
+        <text x="741" y="369" font-size="21" fill="#92400e">δ</text>
+        <text x="750" y="420" font-size="17" fill="#526177">车身前向</text>
+        <circle cx="350" cy="400" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+        <circle cx="500" cy="400" r="7" fill="#15803d" stroke="#ffffff" stroke-width="2" />
+        <path d="M500 390 V310" stroke="#15803d" stroke-width="1.5" />
+        <text x="440" y="300" font-size="18" fill="#166534">主体原点</text>
+        <text x="90" y="411" font-size="18" fill="#1d4ed8">后轴参考点</text>
+        <path d="M188 404 H339" stroke="#2563eb" stroke-width="1.5" />
+        <path d="M350 475 V510 M650 475 V510 M350 497 H650" stroke="#64748b" stroke-width="1.5" />
+        <path d="M350 490 V504 M650 490 V504" stroke="#64748b" stroke-width="2" />
+        <text x="475" y="520" font-size="19">轴距 L</text>
+        <rect x="35" y="550" width="970" height="49" rx="9" fill="#f4f7fc" />
+        <text x="53" y="581" font-size="17">R = L / tan(δ)；最小半径由最大转向角决定。车身扫掠范围按完整轮廓计算。</text>
+    </g>
 </svg>

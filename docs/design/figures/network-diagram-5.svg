@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">路口连接与交通规则关联</title>
+<desc id="desc">以入口、转向连接和出口表达拓扑，规则独立关联相应连接。</desc>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#177c79"/>
+</marker>
+<marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#93661f"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="32" y="40" font-size="22" fill="#243747" text-anchor="start" font-weight="600">路口连接与交通规则关联</text>
+<text x="32" y="69" font-size="15" fill="#607585" text-anchor="start" font-weight="400">以入口、转向连接和出口表达拓扑，规则独立关联相应连接。</text>
+<rect x="315" y="115" width="560" height="475" rx="14" fill="#ffffff" stroke="#d2dde3"/>
+<text x="333" y="144" font-size="17" fill="#607585" text-anchor="start" font-weight="600">路口连接集合</text>
+<rect x="40" y="325" width="235" height="80" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="157.5" y="372" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">入口通行区段</text>
+<rect x="385" y="185" width="280" height="80" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="525" y="232" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">左转连接</text>
+<rect x="940" y="185" width="220" height="80" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="1050" y="232" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">出口区段 A</text>
+<path d="M275 365 L300 365 L300 225 L385 225" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M665 225 L940 225" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="385" y="325" width="280" height="80" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="525" y="372" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">直行连接</text>
+<rect x="940" y="325" width="220" height="80" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="1050" y="372" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">出口区段 B</text>
+<path d="M275 365 L300 365 L300 365 L385 365" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M665 365 L940 365" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="385" y="465" width="280" height="80" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="525" y="512" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">右转连接</text>
+<rect x="940" y="465" width="220" height="80" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="1050" y="512" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">出口区段 C</text>
+<path d="M275 365 L300 365 L300 505 L385 505" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M665 505 L940 505" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="700" y="125" width="150" height="45" rx="12" fill="#faf4e8" stroke="#93661f"/>
+<text x="775" y="154" font-size="18" fill="#93661f" text-anchor="middle" font-weight="400">禁左规则</text>
+<path d="M700 148 L685 148 L685 205 L665 205" fill="none" stroke="#93661f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#gold)"/>
+<rect x="700" y="270" width="150" height="45" rx="12" fill="#faf4e8" stroke="#93661f"/>
+<text x="775" y="299" font-size="18" fill="#93661f" text-anchor="middle" font-weight="400">信号控制</text>
+<path d="M700 292 L685 292 L685 345 L665 345" fill="none" stroke="#93661f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#gold)"/>
+<text x="40" y="635" font-size="17" fill="#607585" text-anchor="start" font-weight="400">实线：拓扑衔接；金色虚线：规则或控制关联。</text>
+</g>
+</svg>

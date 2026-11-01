@@ -104,7 +104,12 @@ def run_until_incident(scene_path: str) -> None:
 
 信号调度需要遵循信号系统的状态转换与时间规则，具体相位及方案接口在交通组织设计中确定。回调本身保持统一的能力边界，相关命令的效果由内核执行并返回结果。
 
-```mermaid
+![事故事件与边界命令](figures/events-diagram-1.svg)
+
+<details>
+<summary>图示源码（Mermaid）</summary>
+
+```text
 flowchart LR
     CONTACT[内核：接触、停驶与占用] --> EVENT[带版本的事故事件]
     EVENT --> BUILTIN[明确配置的事故后暂停选项]
@@ -115,6 +120,8 @@ flowchart LR
     COMMAND --> APPLY[校验并应用边界修改]
     APPLY --> NEXT[下一逻辑步]
 ```
+
+</details>
 
 场景中的事故后暂停采用固定内置选项。其他事故后的交通管理策略通过 Python 回调和普通命令组织，各调用入口共用相同领域操作。
 

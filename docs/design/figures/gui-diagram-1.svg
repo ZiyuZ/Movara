@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">界面、命令与状态显示</title>
+<desc id="desc">GUI 将用户操作转换为命令，并以只读结果更新视图。</desc>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#177c79"/>
+</marker>
+<marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#93661f"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="32" y="40" font-size="22" fill="#243747" text-anchor="start" font-weight="600">界面、命令与状态显示</text>
+<text x="32" y="69" font-size="15" fill="#607585" text-anchor="start" font-weight="400">GUI 将用户操作转换为命令，并以只读结果更新视图。</text>
+<rect x="40" y="125" width="360" height="385" rx="15" fill="#fff" stroke="#bfced7"/>
+<rect x="40" y="125" width="360" height="47" rx="15" fill="#e7eef2" stroke="none"/>
+<text x="65" y="155" font-size="18" fill="#243747" text-anchor="start" font-weight="600">Movara</text>
+<circle cx="343" cy="148" r="4" fill="#93a8b6"/>
+<circle cx="362" cy="148" r="4" fill="#93a8b6"/>
+<circle cx="381" cy="148" r="4" fill="#93a8b6"/>
+<rect x="58" y="191" width="222" height="225" rx="10" fill="#edf1ee" stroke="none"/>
+<rect x="58" y="270" width="222" height="62" rx="0" fill="#d5dfe6" stroke="none"/>
+<path d="M63 301L275 301" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="6 5"/>
+<g transform="translate(170 301) rotate(0)">
+<rect x="-26" y="-13" width="52" height="26" rx="7" fill="#177c79"/>
+<path d="M8 -9L17 -7V7L8 9Z" fill="#cce4e1"/>
+<path d="M-13 -8V8" stroke="#cce4e1" stroke-width="2"/>
+</g>
+<circle cx="220" cy="220" r="6" fill="#b77b22"/>
+<rect x="295" y="191" width="87" height="225" rx="8" fill="#f3f6f8" stroke="none"/>
+<text x="308" y="221" font-size="15" fill="#607585" text-anchor="start" font-weight="400">主体</text>
+<text x="308" y="257" font-size="15" fill="#607585" text-anchor="start" font-weight="400">速度</text>
+<text x="308" y="293" font-size="15" fill="#607585" text-anchor="start" font-weight="400">位置</text>
+<text x="308" y="329" font-size="15" fill="#607585" text-anchor="start" font-weight="400">策略</text>
+<rect x="62" y="446" width="118" height="39" rx="10" fill="#e8f2f1" stroke="#a9ceca"/>
+<text x="121" y="472" font-size="15" fill="#177c79" text-anchor="middle" font-weight="400">运行 / 暂停</text>
+<rect x="195" y="446" width="118" height="39" rx="10" fill="#f3f6f8" stroke="#d2dde3"/>
+<text x="254" y="472" font-size="15" fill="#607585" text-anchor="middle" font-weight="400">单步</text>
+<rect x="490" y="160" width="290" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="635" y="196.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">带生效时刻的命令</text>
+<text x="635" y="222.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">统一校验与排序</text>
+<rect x="870" y="160" width="285" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="1012.5" y="196.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">仿真内核</text>
+<text x="1012.5" y="222.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">世界与逻辑时间</text>
+<path d="M400 203 L490 203" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M780 203 L870 203" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="490" y="360" width="290" height="90" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="635" y="399" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">只读状态与事件</text>
+<text x="635" y="425" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">位置、反馈与生命周期</text>
+<path d="M1012 245 L1012 405 L780 405" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M490 405 L400 405" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="870" y="490" width="285" height="75" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="1012.5" y="534.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">运行记录</text>
+<path d="M1155 203 L1175 203 L1175 527 L1155 527" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="180" y="550" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">界面本地状态与世界状态分别维护</text>
+</g>
+</svg>

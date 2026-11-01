@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">从参考轨迹到实际运动</title>
+<desc id="desc">轨迹描述未来计划，跟踪器结合当前状态生成受约束的运动输入。</desc>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#177c79"/>
+</marker>
+<marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#93661f"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="32" y="40" font-size="22" fill="#243747" text-anchor="start" font-weight="600">从参考轨迹到实际运动</text>
+<text x="32" y="69" font-size="15" fill="#607585" text-anchor="start" font-weight="400">轨迹描述未来计划，跟踪器结合当前状态生成受约束的运动输入。</text>
+<rect x="35" y="110" width="1130" height="275" rx="16" fill="#fff" stroke="#d2dde3"/>
+<text x="58" y="143" font-size="18" fill="#243747" text-anchor="start" font-weight="600">轨迹与实际状态</text>
+<rect x="65" y="165" width="650" height="175" rx="12" fill="#e5ecef" stroke="none"/>
+<path d="M85 292 C245 292 270 206 440 206 S585 231 685 185" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 6"/>
+<path d="M90 285 C250 285 275 198 440 198 S580 223 680 177" fill="none" stroke="#177c79" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+<path d="M90 300 C235 300 300 231 455 217 S595 240 680 200" fill="none" stroke="#93661f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="90" cy="285" r="4" fill="#177c79"/>
+<circle cx="170" cy="279" r="4" fill="#177c79"/>
+<circle cx="260" cy="245" r="4" fill="#177c79"/>
+<circle cx="360" cy="207" r="4" fill="#177c79"/>
+<circle cx="460" cy="199" r="4" fill="#177c79"/>
+<circle cx="560" cy="209" r="4" fill="#177c79"/>
+<circle cx="680" cy="177" r="4" fill="#177c79"/>
+<g transform="translate(350 237) rotate(-13)">
+<rect x="-26" y="-13" width="52" height="26" rx="7" fill="#93661f"/>
+<path d="M8 -9L17 -7V7L8 9Z" fill="#cce4e1"/>
+<path d="M-13 -8V8" stroke="#cce4e1" stroke-width="2"/>
+</g>
+<path d="M550 207L550 226" fill="none" stroke="#6c8291" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="563" y="250" font-size="15" fill="#607585" text-anchor="start" font-weight="400">跟踪偏差</text>
+<path d="M780 200L835 200" fill="none" stroke="#177c79" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="855" y="206" font-size="18" fill="#243747" text-anchor="start" font-weight="400">参考轨迹</text>
+<path d="M780 250L835 250" fill="none" stroke="#93661f" stroke-width="3"/>
+<text x="855" y="256" font-size="18" fill="#243747" text-anchor="start" font-weight="400">实际运动</text>
+<text x="780" y="311" font-size="16" fill="#607585" text-anchor="start" font-weight="400">参考与实际使用相同坐标系</text>
+<rect x="45" y="430" width="285" height="90" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="187.5" y="469" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">提交并解析轨迹</text>
+<text x="187.5" y="495" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">确定完整控制组</text>
+<rect x="415" y="430" width="350" height="90" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="590" y="482" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">按逻辑时间取得参考状态</text>
+<rect x="855" y="430" width="300" height="90" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="1005" y="469" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">轨迹跟踪器</text>
+<text x="1005" y="495" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">结合当前主体状态</text>
+<path d="M330 475 L415 475" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M765 475 L855 475" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="855" y="620" width="300" height="90" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="1005" y="659" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">有效运动输入</text>
+<text x="1005" y="685" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">加速度、转向等</text>
+<path d="M1005 520 L1005 620" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="440" y="620" width="325" height="90" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="602.5" y="672" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">运动模型与能力约束</text>
+<path d="M855 665 L765 665" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="45" y="620" width="300" height="90" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="195" y="672" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">实际状态与跟踪偏差</text>
+<path d="M440 665 L345 665" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M1090 385 L1090 430" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<text x="1080" y="410" font-size="15" fill="#607585" text-anchor="end" font-weight="400">当前状态</text>
+</g>
+</svg>

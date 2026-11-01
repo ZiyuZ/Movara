@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1070" viewBox="0 0 1200 1070" role="img" aria-labelledby="title desc">
+<title id="title">物理空间、规划与主体行为</title>
+<desc id="desc">主流程从上向下，规则输入与状态反馈分别布线。</desc>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#177c79"/>
+</marker>
+<marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#93661f"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="32" y="40" font-size="22" fill="#243747" text-anchor="start" font-weight="600">物理空间、规划与主体行为</text>
+<text x="32" y="69" font-size="15" fill="#607585" text-anchor="start" font-weight="400">主流程从上向下，规则输入与状态反馈分别布线。</text>
+<rect x="32" y="115" width="540" height="285" rx="14" fill="#ffffff" stroke="#d2dde3"/>
+<text x="50" y="144" font-size="17" fill="#607585" text-anchor="start" font-weight="600">地图与空间</text>
+<rect x="620" y="115" width="548" height="285" rx="14" fill="#ffffff" stroke="#d2dde3"/>
+<text x="638" y="144" font-size="17" fill="#607585" text-anchor="start" font-weight="600">交通组织与规划</text>
+<rect x="55" y="170" width="215" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="162.5" y="206.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">承载表面</text>
+<text x="162.5" y="232.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">地面、坡面与桥面</text>
+<rect x="315" y="170" width="230" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="430" y="219.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">障碍与主体几何</text>
+<rect x="130" y="310" width="300" height="65" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="280" y="349.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">空间几何查询</text>
+<path d="M162 255 L162 280 L220 280 L220 310" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M430 255 L430 280 L340 280 L340 310" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="640" y="170" width="240" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="760" y="219.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">通行区域与连接</text>
+<rect x="920" y="170" width="225" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="1032.5" y="219.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">交通规则</text>
+<rect x="680" y="310" width="260" height="65" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="810" y="349.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">路网寻路</text>
+<path d="M760 255 L760 310" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M980 255 L980 285 L870 285 L870 310" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="130" y="450" width="300" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="280" y="486.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">空间路径规划</text>
+<text x="280" y="512.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">表面、形状与运动能力</text>
+<path d="M280 375 L280 450" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="420" y="610" width="360" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="600" y="646.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">Agent 策略</text>
+<text x="600" y="672.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">选择建议、微调或自有决策</text>
+<path d="M280 535 L280 570 L510 570 L510 610" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M810 375 L810 535 L680 535 L680 610" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="810" y="480" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">参考路线</text>
+<text x="395" y="553" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">候选空间路径</text>
+<path d="M1080 255 L1080 652 L780 652" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="1095" y="470" font-size="16" fill="#607585" text-anchor="start" font-weight="400">规则输入</text>
+<rect x="420" y="760" width="360" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="600" y="809.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">动作与运动执行</text>
+<path d="M600 695 L600 760" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="420" y="910" width="360" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="600" y="946.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">实际状态</text>
+<text x="600" y="972.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">位姿、占用与接触</text>
+<path d="M600 845 L600 910" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M420 952 L75 952 L75 342 L130 342" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<text x="100" y="925" font-size="16" fill="#607585" text-anchor="start" font-weight="400">下一版本的几何查询输入</text>
+</g>
+</svg>

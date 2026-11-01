@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img"
+    aria-labelledby="title desc">
+    <title id="title">主体状态、行为与运动反馈</title>
+    <desc id="desc">世界保存实际状态，Agent 根据允许的信息与自身记忆产生行为。</desc>
+    <defs>
+        <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0L8 4L0 8Z" fill="#177c79" />
+        </marker>
+        <marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0L8 4L0 8Z" fill="#93661f" />
+        </marker>
+    </defs>
+    <rect width="100%" height="100%" rx="16" fill="#f8fafc" />
+    <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+        <text x="32" y="40" font-size="22" fill="#243747" text-anchor="start" font-weight="600">
+            主体状态、行为与运动反馈</text>
+        <text x="32" y="69" font-size="15" fill="#607585" text-anchor="start" font-weight="400">世界保存实际状态，Agent
+            根据允许的信息与自身记忆产生行为。</text>
+        <rect x="35" y="125" width="275" height="380" rx="14" fill="#ffffff" stroke="#d2dde3" />
+        <text x="53" y="154" font-size="17" fill="#607585" text-anchor="start" font-weight="600">
+            世界状态</text>
+        <rect x="365" y="125" width="365" height="380" rx="14" fill="#ffffff" stroke="#d2dde3" />
+        <text x="383" y="154" font-size="17" fill="#607585" text-anchor="start" font-weight="600">
+            Agent</text>
+        <rect x="790" y="125" width="375" height="380" rx="14" fill="#ffffff" stroke="#d2dde3" />
+        <text x="808" y="154" font-size="17" fill="#607585" text-anchor="start" font-weight="600">
+            控制与运动</text>
+        <rect x="58" y="183" width="228" height="112" rx="12" fill="#e2e9ee" stroke="none" />
+        <path d="M70 239L274 239" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="6 5" />
+        <g transform="translate(161 239) rotate(0)">
+            <rect x="-26" y="-13" width="52" height="26" rx="7" fill="#177c79" />
+            <path d="M8 -9L17 -7V7L8 9Z" fill="#cce4e1" />
+            <path d="M-13 -8V8" stroke="#cce4e1" stroke-width="2" />
+        </g>
+        <text x="172" y="282" font-size="15" fill="#607585" text-anchor="middle" font-weight="400">
+            实际位姿与运动</text>
+        <rect x="65" y="365" width="215" height="90" rx="12" fill="#e8f2f1" stroke="#177c79" />
+        <text x="172.5" y="404" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">
+            实体状态</text>
+        <text x="172.5" y="430" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">World
+            当前版本</text>
+        <rect x="402" y="190" width="290" height="82" rx="12" fill="#fff" stroke="#d2dde3" />
+        <text x="547" y="225" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">
+            观测与持续记忆</text>
+        <text x="547" y="251" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            按实验信息范围构造输入</text>
+        <rect x="402" y="365" width="290" height="90" rx="12" fill="#e8f2f1" stroke="#177c79" />
+        <text x="547" y="404" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">
+            行为模型</text>
+        <text x="547" y="430" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            主体独立的私有状态</text>
+        <path d="M280 410 L335 410 L335 231 L402 231" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)" />
+        <path d="M547 272 L547 365" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)" />
+        <rect x="832" y="190" width="290" height="82" rx="12" fill="#fff" stroke="#d2dde3" />
+        <text x="977" y="225" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">
+            动作解析</text>
+        <text x="977" y="251" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            合并候选控制输入</text>
+        <path d="M692 410 L760 410 L760 231 L832 231" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)" />
+        <rect x="832" y="365" width="290" height="90" rx="12" fill="#e8f2f1" stroke="#177c79" />
+        <text x="977" y="404" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">
+            运动模型</text>
+        <text x="977" y="430" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            能力约束与实际运动</text>
+        <path d="M977 272 L977 365" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)" />
+        <rect x="832" y="540" width="290" height="88" rx="12" fill="#e8f2f1" stroke="#177c79" />
+        <text x="977" y="578" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">
+            下一阶段实体状态</text>
+        <text x="977" y="604" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            位姿、运动与执行反馈</text>
+        <path d="M977 455 L977 540" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)" />
+        <rect x="839" y="55" width="276" height="52" rx="10" fill="#faf4e8" stroke="#d9c7a3" />
+        <text x="977" y="88" font-size="17" fill="#93661f" text-anchor="middle" font-weight="400">GUI
+            / API 临时控制</text>
+        <path d="M977 108 L977 190" fill="none" stroke="#93661f" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" marker-end="url(#gold)" />
+        <path d="M832 581 L547 581 L547 455" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"
+            marker-end="url(#arr)" />
+        <text x="679" y="566" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            反馈用于后续决策</text>
+        <path d="M977 628 L977 659 L173 659 L173 455" fill="none" stroke="#177c79" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"
+            marker-end="url(#arr)" />
+        <text x="350" y="646" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">
+            提交后更新世界状态</text>
+    </g>
+</svg>

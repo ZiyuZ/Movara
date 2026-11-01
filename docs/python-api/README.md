@@ -21,7 +21,12 @@ Movara Python API 库为 Python 程序提供应用连接、场景操作、运行
 
 应用在进程内持有仿真实例，内核负责世界状态和逻辑时间。Python API 库通过应用接口访问该实例，GUI 展示相应的状态与事件。
 
-```mermaid
+![Python、GUI 与内核调用关系](figures/readme-diagram-1.svg)
+
+<details>
+<summary>图示源码（Mermaid）</summary>
+
+```text
 flowchart LR
     PY[Python 程序] --> API[Python API 库]
     API --> APP[Movara 应用]
@@ -31,6 +36,8 @@ flowchart LR
     APP --> API
     APP --> GUI
 ```
+
+</details>
 
 API 的公开语义与内部传输实现分别设计，原生扩展、序列化和数据缓冲按实际需求选择。
 

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590" role="img"
+    aria-labelledby="title desc">
+    <title id="title">共同物理空间中的常规路线与自由路径</title>
+    <desc id="desc">俯视示意：车辆的候选路径从车道经过隔离栏缺口进入广场；行人在广场内自由穿行。参考中心线、规则边界和实体障碍分别标注。</desc>
+    <defs>
+        <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0L8 4L0 8" fill="#177c79" />
+        </marker>
+        <marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0L8 4L0 8" fill="#b77b22" />
+        </marker>
+    </defs>
+    <rect width="960" height="590" rx="16" fill="#f8fafc" />
+    <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#243747">
+        <text x="32" y="40" font-size="22" font-weight="bold">空间运动与交通组织分别表达</text>
+        <text x="32" y="69" font-size="15">俯视示意 · 候选路径的可行性由几何与运动能力检查</text>
+        <rect x="45" y="100" width="870" height="195" fill="#e8ede8" />
+        <rect x="45" y="295" width="870" height="65" fill="#e6dccb" />
+        <rect x="45" y="360" width="870" height="125" fill="#d8e0e7" />
+        <path d="M45 422H915" stroke="#fff" stroke-width="3" stroke-dasharray="16 12" />
+        <path d="M45 360H915" stroke="#b77b22" stroke-width="2" stroke-dasharray="5 6" />
+        <path d="M65 301H390M530 301H890" stroke="#425769" stroke-width="9" />
+        <text x="65" y="132" font-size="18">广场区域</text>
+        <text x="65" y="336" font-size="17">人行道区域</text>
+        <text x="65" y="462" font-size="17">车道区域</text>
+        <text x="640" y="406" font-size="15">中心参考线</text>
+        <text x="640" y="349" font-size="15" fill="#986719">区域 / 规则边界</text>
+        <text x="640" y="283" font-size="15">实体隔离栏</text>
+        <text x="407" y="284" font-size="14">栏杆缺口</text>
+        <path d="M230 420C350 420 455 390 460 320S500 212 610 175" fill="none" stroke="#177c79"
+            stroke-width="4" marker-end="url(#arrow)" />
+        <rect x="202" y="407" width="49" height="26" rx="5" fill="#177c79" />
+        <text x="310" y="194" font-size="16" fill="#177c79">车辆空间规划候选</text>
+        <path d="M300 245Q460 138 745 205" fill="none" stroke="#b77b22" stroke-width="3"
+            stroke-dasharray="8 6" marker-end="url(#gold)" />
+        <circle cx="300" cy="245" r="9" fill="#b77b22" />
+        <text x="520" y="139" font-size="16" fill="#986719">行人区域内路径</text>
+        <text x="32" y="526" font-size="16">车道和人行道描述常规用途；规则参与策略与规划，隔离栏参与几何和接触检查。</text>
+        <text x="32" y="556" font-size="16">各类主体共享空间，实际路径由主体形状、能力、环境与决策共同决定。</text>
+    </g>
+</svg>

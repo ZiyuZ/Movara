@@ -42,7 +42,12 @@ Windows 的进程启动、终端连接、标准输入输出、重定向、退出
 
 界面操作转换为具有明确生效 Tick 的内核命令。暂停编辑保持逻辑时间，提交成功后在指定边界应用。验证失败时显示具体对象、字段与原因。
 
-```mermaid
+![世界视图与显示流程](figures/gui-diagram-1.svg)
+
+<details>
+<summary>图示源码（Mermaid）</summary>
+
+```text
 flowchart LR
     UI[界面操作] --> CMD[带生效时刻的命令]
     CMD --> CORE[仿真内核]
@@ -50,6 +55,8 @@ flowchart LR
     SNAP --> UI
     CORE --> REC[运行记录]
 ```
+
+</details>
 
 界面刷新频率与仿真 Tick 分别控制。降低帧率、关闭图层、选择主体和切换视图均应保持逻辑结果一致。墙钟操作记录实际接受与生效 Tick，命令重跑使用记录中的逻辑时刻。
 

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">逻辑步的阶段与时间边界</title>
+<desc id="desc">控制等待保留固定世界版本；状态在提交边界进入下一逻辑时刻。</desc>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#177c79"/>
+</marker>
+<marker id="gold" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0 0L8 4L0 8Z" fill="#93661f"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="32" y="40" font-size="22" fill="#243747" text-anchor="start" font-weight="600">逻辑步的阶段与时间边界</text>
+<text x="32" y="69" font-size="15" fill="#607585" text-anchor="start" font-weight="400">控制等待保留固定世界版本；状态在提交边界进入下一逻辑时刻。</text>
+<path d="M80 178L1120 178" fill="none" stroke="#c5d5dc" stroke-width="4"/>
+<circle cx="95" cy="178" r="8" fill="#177c79"/>
+<circle cx="840" cy="178" r="8" fill="#177c79"/>
+<text x="95" y="150" font-size="19" fill="#177c79" text-anchor="start" font-weight="400">边界 k · t(k)</text>
+<text x="840" y="150" font-size="19" fill="#177c79" text-anchor="middle" font-weight="400">边界 k+1 · t(k+1)</text>
+<path d="M95 178 L1115 178" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="35" y="225" width="695" height="330" rx="14" fill="#ffffff" stroke="#d2dde3"/>
+<text x="53" y="254" font-size="17" fill="#607585" text-anchor="start" font-weight="600">准备与控制等待</text>
+<rect x="765" y="225" width="400" height="330" rx="14" fill="#ffffff" stroke="#d2dde3"/>
+<text x="783" y="254" font-size="17" fill="#607585" text-anchor="start" font-weight="600">推进与提交</text>
+<rect x="60" y="285" width="270" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="195" y="321.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">应用普通命令</text>
+<text x="195" y="347.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">建立本步起始条件</text>
+<rect x="410" y="285" width="295" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="557.5" y="321.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">准备阶段</text>
+<text x="557.5" y="347.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">固定版本与阶段身份</text>
+<path d="M330 327 L410 327" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="410" y="440" width="295" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="557.5" y="476.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">查询与控制回合</text>
+<text x="557.5" y="502.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">收齐本步必需提交</text>
+<path d="M557 370 L557 440" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="60" y="428" width="270" height="107" rx="12" fill="#faf4e8" stroke="#e2d2b6"/>
+<text x="195" y="471" font-size="18" fill="#93661f" text-anchor="middle" font-weight="600">等待期间</text>
+<text x="195" y="500" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">查询与界面保持响应</text>
+<rect x="795" y="285" width="340" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="965" y="321.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">动作解析与运动</text>
+<text x="965" y="347.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">运动、接触与事件</text>
+<path d="M705 482 L745 482 L745 327 L795 327" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="795" y="440" width="340" height="85" rx="12" fill="#e8f2f1" stroke="#177c79"/>
+<text x="965" y="476.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">提交状态与结果</text>
+<text x="965" y="502.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">世界进入下一版本</text>
+<path d="M965 370 L965 440" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="795" y="610" width="340" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="965" y="646.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">边界事件处理</text>
+<text x="965" y="672.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">内置选项与控制回调</text>
+<path d="M965 525 L965 610" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="410" y="610" width="295" height="85" rx="12" fill="#fff" stroke="#d2dde3"/>
+<text x="557.5" y="646.5" font-size="19" fill="#243747" text-anchor="middle" font-weight="600">准备下一逻辑步</text>
+<text x="557.5" y="672.5" font-size="16" fill="#607585" text-anchor="middle" font-weight="400">应用命令并按状态继续</text>
+<path d="M795 652 L705 652" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M410 652 L375 652 L375 327 L410 327" fill="none" stroke="#177c79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+</g>
+</svg>

@@ -159,7 +159,12 @@ Rust 中将模型参数、模型运行状态和分类控制输入分别定义。
 
 轨迹跟踪使用自身执行状态和提交的计划。交通决策、避让、路径选择与重新规划由 Agent 策略承担。需要额外干预的控制器具有明确身份、输入和记录。
 
-```mermaid
+![轨迹解析与运动执行](figures/motion-diagram-1.svg)
+
+<details>
+<summary>图示源码（Mermaid）</summary>
+
+```text
 flowchart LR
     PLAN[Agent 或外部提交轨迹] --> SELECT[解析完整控制组]
     SELECT --> REFERENCE[按逻辑时间取得参考状态]
@@ -169,6 +174,8 @@ flowchart LR
     INPUT --> MODEL[运动模型与能力约束]
     MODEL --> RESULT[实际状态与跟踪偏差]
 ```
+
+</details>
 
 ### 校验与反馈
 
