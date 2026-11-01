@@ -5,6 +5,7 @@ if (!process.env.MOVARA_REPOSITORY) {
     throw new Error('MOVARA_REPOSITORY must point to the repository root');
 }
 const workspace = resolve(process.env.MOVARA_REPOSITORY, '.local/docs-site');
+const base = process.env.VITEPRESS_BASE || '/Movara/';
 
 const link = (text, file) => ({ text, link: `/${file}.html` });
 const platform = [
@@ -65,7 +66,8 @@ export default defineConfig({
     lang: 'zh-CN',
     title: 'Movara',
     description: '面向自主式交通系统多主体交互的交通仿真平台',
-    base: process.env.VITEPRESS_BASE || '/Movara/',
+    base,
+    head: [['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}logo.svg` }]],
     srcDir: resolve(workspace, 'project/content'),
     outDir: resolve(workspace, 'dist'),
     cacheDir: resolve(workspace, 'cache'),
