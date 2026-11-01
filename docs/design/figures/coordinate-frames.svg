@@ -35,7 +35,7 @@
     <circle cx="695" cy="292" r="9" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
     <circle cx="695" cy="292" r="3" fill="#15803d"/>
     <path d="M695 305 V351" stroke="#64748b" stroke-width="1.5"/>
-    <text x="575" y="379" font-size="17">主体原点 / 局部 Z 向外</text>
+    <text x="675" y="379" font-size="17">主体原点 / 局部 Z 向外</text>
     <text x="40" y="439" font-size="17" fill="#526177">圆点符号表示 Z 轴朝向读者；长度单位 m，角度单位 rad。图为示意。</text>
   </g>
 </svg>
