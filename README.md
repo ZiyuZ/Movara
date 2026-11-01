@@ -52,3 +52,7 @@ Movara 面向自主式交通系统研究，旨在提供独立仿真内核、原�
 | [同类工具对比](docs/comparisons.md) | 定位、能力维度与比较条件 |
 | [路线图](docs/ROADMAP.md) | 阶段目标、交付范围与验收要求 |
 | [工程筹备计划](docs/TODO.md) | 当前议题与筹备进度 |
+
+## 许可证
+
+Movara 采用 [Apache License 2.0](LICENSE) 许可证。
