@@ -1,0 +1,11 @@
+{
+  "name": "movara-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:build": "bun prepare.mjs && bun --bun run vitepress build"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}

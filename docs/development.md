@@ -194,13 +194,25 @@ CPU 与 GPU 按数值容差和事件语义比较，接触边界单独检查。�
 
 内部格式变化采用直接迁移或明确失效。高成本资产可以执行一次性迁移。错误暴露后应修复其原因。兼容层、静默降级、无限重试和多层恢复不得用于掩盖错误。
 
+## 文档站
+
+文档站采用 VitePress，正文保留在正式文档目录，站点配置、主题、构建脚本和依赖清单集中在 `.github/docs-site/`。平台文档、Python API 与应用界面使用独立导航，新增页面时同步维护该目录下 `.vitepress/config.mjs` 的分区导航。
+
+站点依赖通过目录内的 `package.json` 与 `bun.lock` 管理，Bun 统一负责依赖安装、准备脚本和 VitePress 运行。日常只需编辑 Markdown 和图片，安装与完整构建由 GitHub Actions 执行。
+
+Workflow 将站点工程复制到 `.local/docs-site/project/` 后安装和构建，汇集正文时保持仓库相对路径，跨模块链接与 SVG 引用继续共用同一份 Markdown。源码副本、依赖、缓存和产物均放在 `.local/docs-site/`。本地验证也使用这一隔离目录。任务 prompt、本地笔记和归档目录不进入站点。
+
+`.github/workflows/docs.yml` 在相关 PR 中构建站点，在 `main` 的相关变更或手动触发后发布。GitHub 仓库的 Settings → Pages → Build and deployment → Source 需要选择 GitHub Actions。首次发布后可以从 workflow 的部署结果进入网站。
+
+构建时通过 `MOVARA_REPOSITORY` 指定仓库根目录，在隔离工程内执行 `bun run docs:build`，输出为 `.local/docs-site/dist/`。完整构建检查与发布结果由 Actions 提供，Markdown 格式继续通过 `just rumdl` 检查。站点使用浏览器内搜索，中文索引和查询采用相同的分词规则。
+
 ## 文档维护
 
 文档按完整主题组织，相近的小节优先在同一专题内维护。内容增长到影响阅读与维护时，可以按职责拆分。目录按相关领域分组，专题数量继续增长时再建立必要的子层级，避免在单个目录堆积零散页面。拆分与目录重构同步维护内容归属和导航。
 
 具有独立目标、范围和验收条件的方案单独成文，路线图保留阶段目标与方案入口。原型的具体安排集中在[技术原型方案](design/prototype.md)。移动现有章节优先使用命令行脚本保留原文，再修改结构、衔接和引用。
 
-正式文档面向第三方用户和贡献者。`docs/` 顶层维护需求、开发指南、同类工具对比、路线图和筹备计划，具体设计集中在 `docs/design/` 的领域专题中。根目录 README 提供稳定介绍与导航。
+正式文档面向第三方用户和贡献者。`docs/` 顶层维护需求、开发指南、同类工具对比、路线图和筹备计划，具体设计集中在 `docs/design/` 的领域专题中。根目录 README 提供稳定介绍与导航。应用专属的 GUI 工作区、视觉与组件规范集中在 [`crates/movara-app/docs/`](../crates/movara-app/docs/README.md)，系统职责和跨模块交互继续在桌面界面设计中维护。
 
 Python API 的使用与接口约定集中在 `docs/python-api/`。关键流程和跨接口规则由手写文档维护，参数、返回值、异常与局部示例以代码 docstring 为主要来源，后续参考文档由签名、类型与 docstring 生成。
 

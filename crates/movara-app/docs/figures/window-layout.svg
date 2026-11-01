@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="880" viewBox="0 0 1220 880" role="img"
+    aria-labelledby="title desc">
+    <title id="title">Movara 自定义标题栏与仿真工作区候选布局</title>
+    <desc id="desc">
+        紧凑的桌面窗口示意。顶部是包含应用标识、菜单、场景身份、拖动区和窗口按钮的自定义标题栏，其下为运行工具。左侧对象与图层，中间交通场景画布，右侧属性，底部事件与状态。用平直区域和小圆角控件表达科研工具的密度。</desc>
+    <defs>
+        <clipPath id="window">
+            <rect x="40" y="110" width="1140" height="650" rx="8" />
+        </clipPath>
+        <clipPath id="canvas">
+            <rect x="260" y="190" width="620" height="412" />
+        </clipPath>
+    </defs>
+    <rect width="1220" height="880" rx="16" fill="#f8fafc" />
+    <g font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif" fill="#243747">
+        <text x="32" y="40" font-size="22" font-weight="600">仿真工作区 · 自定义标题栏与停靠面板</text>
+        <text x="32" y="69" font-size="15" fill="#607585">候选布局示意，控件尺寸与面板占比通过交互原型比较</text>
+        <g clip-path="url(#window)">
+            <rect x="40" y="110" width="1140" height="650" fill="#fff" />
+            <rect x="40" y="110" width="1140" height="36" fill="#edf1f3" />
+            <path d="M56 129L65 119L64 126L75 122L68 131L61 129L54 135Z" fill="#176b68" />
+            <text x="84" y="133" font-size="14" font-weight="600">Movara</text>
+            <text x="166" y="133" font-size="13">文件</text>
+            <text x="212" y="133" font-size="13">视图</text>
+            <text x="258" y="133" font-size="13">仿真</text>
+            <text x="304" y="133" font-size="13">帮助</text>
+            <text x="452" y="133" font-size="13">行人过街 · scene.json</text>
+            <text x="856" y="133" font-size="12" text-anchor="middle" fill="#8796a1">窗口拖动区</text>
+            <path d="M1064 129H1075M1105 123H1116V134H1105ZM1147 123L1158 134M1158 123L1147 134"
+                fill="none" stroke="#556674" stroke-width="1.2" />
+            <path d="M40 146H1180" stroke="#d5dde2" />
+            <rect x="40" y="147" width="1140" height="43" fill="#f8fafb" />
+            <g font-size="13" text-anchor="middle">
+                <rect x="53" y="153" width="88" height="30" rx="3" fill="#fff" stroke="#8796a1" />
+                <text x="97" y="173">加载场景</text>
+                <rect x="157" y="153" width="65" height="30" rx="3" fill="#176b68" />
+                <path d="M169 162L169 174L177 168Z" fill="#fff" />
+                <text x="199" y="173" fill="#fff">运行</text>
+                <rect x="230" y="153" width="58" height="30" rx="3" fill="#fff" stroke="#8796a1" />
+                <text x="259" y="173">单步</text>
+                <rect x="296" y="153" width="58" height="30" rx="3" fill="#fff" stroke="#8796a1" />
+                <text x="325" y="173">重置</text>
+            </g>
+            <path d="M374 157V179" stroke="#d5dde2" />
+            <rect x="390" y="157" width="48" height="23" rx="2" fill="#e9eef0" />
+            <text x="414" y="173" font-size="12" text-anchor="middle">暂停</text>
+            <text x="461" y="173" font-size="13">Tick</text>
+            <text x="493" y="173" font-size="13" font-family="Consolas, monospace">100</text>
+            <text x="551" y="173" font-size="13">逻辑时间</text>
+            <text x="615" y="173" font-size="13" font-family="Consolas, monospace">10.00 s</text>
+            <text x="1158" y="173" text-anchor="end" font-size="12" fill="#556674">世界真值</text>
+            <path d="M40 190H1180" stroke="#d5dde2" />
+            <!-- Object and layer panel -->
+            <rect x="40" y="191" width="220" height="543" fill="#f8fafb" />
+            <text x="54" y="211" font-size="13" font-weight="600">对象</text>
+            <text x="115" y="211" font-size="13" fill="#607585">图层</text>
+            <path d="M53 219H86" stroke="#176b68" stroke-width="2" />
+            <rect x="53" y="231" width="194" height="28" rx="3" fill="#fff" stroke="#8796a1" />
+            <circle cx="66" cy="243" r="4" fill="none" stroke="#607585" />
+            <path d="M69 246L73 250" stroke="#607585" />
+            <text x="82" y="250" font-size="12" fill="#607585">筛选名称、类别或 ID</text>
+            <text x="57" y="285" font-size="13">▾ 机动车</text>
+            <text x="234" y="285" font-size="12" text-anchor="end" fill="#607585">1</text>
+            <rect x="40" y="295" width="220" height="28" fill="#dcedea" />
+            <rect x="40" y="295" width="2" height="28" fill="#176b68" />
+            <text x="77" y="314" font-size="13">车辆 001</text>
+            <text x="57" y="346" font-size="13">▾ 行人</text>
+            <text x="234" y="346" font-size="12" text-anchor="end" fill="#607585">1</text>
+            <text x="77" y="375" font-size="13">行人 002</text>
+            <path d="M53 398H247" stroke="#d5dde2" />
+            <text x="54" y="423" font-size="12" fill="#607585">当前显示</text>
+            <g font-size="13">
+                <rect x="55" y="439" width="13" height="13" rx="2" fill="#176b68" />
+                <path d="M58 445L61 448L66 442" fill="none" stroke="#fff" stroke-width="1.4" />
+                <text x="80" y="450">主体轮廓</text>
+                <rect x="55" y="467" width="13" height="13" rx="2" fill="#176b68" />
+                <path d="M58 473L61 476L66 470" fill="none" stroke="#fff" stroke-width="1.4" />
+                <text x="80" y="478">车道边界</text>
+                <rect x="55" y="495" width="13" height="13" rx="2" fill="#fff" stroke="#8796a1" />
+                <text x="80" y="506">参考曲线</text>
+            </g>
+            <!-- Spatial canvas, separate from the UI palette -->
+            <g clip-path="url(#canvas)">
+                <rect x="260" y="190" width="620" height="412" fill="#e9ede6" />
+                <rect x="260" y="287" width="620" height="26" fill="#d9d2c4" />
+                <rect x="260" y="313" width="620" height="140" fill="#b8c4cb" />
+                <rect x="260" y="453" width="620" height="26" fill="#d9d2c4" />
+                <path d="M260 383H880" stroke="#fff" stroke-width="2" stroke-dasharray="15 12" />
+                <path d="M260 318H880M260 448H880" stroke="#edf3f5" stroke-width="1.5" />
+                <g fill="#edf3f5">
+                    <rect x="644" y="321" width="28" height="10" />
+                    <rect x="644" y="339" width="28" height="10" />
+                    <rect x="644" y="357" width="28" height="10" />
+                    <rect x="644" y="375" width="28" height="10" />
+                    <rect x="644" y="393" width="28" height="10" />
+                    <rect x="644" y="411" width="28" height="10" />
+                    <rect x="644" y="429" width="28" height="10" />
+                </g>
+                <rect x="471" y="403" width="68" height="30" rx="6" fill="#346c77" />
+                <path d="M516 407L529 410V426L516 429Z" fill="#c2dddd" />
+                <rect x="465" y="397" width="80" height="42" rx="2" fill="none" stroke="#176b68"
+                    stroke-width="2" />
+                <path d="M459 401V391H473M537 391H551V401M459 435V445H473M537 445H551V435"
+                    fill="none" stroke="#176b68" stroke-width="1.5" />
+                <text x="505" y="473" text-anchor="middle" font-size="12">车辆 001</text>
+                <circle cx="659" cy="272" r="6" fill="#b77b22" />
+                <ellipse cx="659" cy="284" rx="6" ry="8" fill="#b77b22" />
+                <text x="684" y="278" font-size="12">行人 002</text>
+                <rect x="276" y="205" width="80" height="25" rx="3" fill="#fff" fill-opacity="0.93" />
+                <text x="316" y="222" font-size="12" text-anchor="middle">选择工具</text>
+                <path d="M295 565H395M295 561V569M395 561V569" stroke="#556674" stroke-width="1.5" />
+                <text x="345" y="552" font-size="12" text-anchor="middle" fill="#556674">10 m</text>
+            </g>
+            <!-- Property inspector -->
+            <rect x="880" y="191" width="300" height="411" fill="#fff" />
+            <text x="894" y="211" font-size="13" font-weight="600">属性 · 车辆 001</text>
+            <path d="M880 220H1180" stroke="#d5dde2" />
+            <text x="895" y="246" font-size="12" fill="#607585">实体 ID</text>
+            <text x="1162" y="246" text-anchor="end" font-size="13"
+                font-family="Consolas, monospace">1</text>
+            <text x="895" y="275" font-size="12" fill="#607585">类别</text>
+            <text x="1162" y="275" text-anchor="end" font-size="13">机动车</text>
+            <path d="M894 290H1166" stroke="#d5dde2" />
+            <text x="895" y="314" font-size="13" font-weight="600">实际运动</text>
+            <g font-size="13">
+                <text x="895" y="344">速率</text>
+                <text x="1121" y="344" text-anchor="end" font-family="Consolas, monospace">8.50</text>
+                <text x="1133" y="344" fill="#607585">m/s</text>
+                <text x="895" y="374">航向</text>
+                <text x="1121" y="374" text-anchor="end" font-family="Consolas, monospace">0.00</text>
+                <text x="1133" y="374" fill="#607585">rad</text>
+                <text x="895" y="404">横向偏移</text>
+                <text x="1121" y="404" text-anchor="end" font-family="Consolas, monospace">0.12</text>
+                <text x="1133" y="404" fill="#607585">m</text>
+            </g>
+            <path d="M894 421H1166" stroke="#d5dde2" />
+            <text x="895" y="445" font-size="13" font-weight="600">行为配置</text>
+            <text x="895" y="477" font-size="13">默认策略</text>
+            <text x="1162" y="477" text-anchor="end" font-size="13">参考跟驰</text>
+            <text x="895" y="512" font-size="12" fill="#607585">当前值来自已提交状态</text>
+            <text x="895" y="536" font-size="12" fill="#607585">Tick 100 · 状态版本 104</text>
+            <!-- Event region and stable status strip -->
+            <rect x="260" y="602" width="920" height="132" fill="#fff" />
+            <path d="M260 602H1180M260 631H1180" stroke="#d5dde2" />
+            <text x="274" y="622" font-size="13" font-weight="600">事件</text>
+            <text x="326" y="622" font-size="13" fill="#607585">命令结果</text>
+            <text x="409" y="622" font-size="13" fill="#607585">诊断</text>
+            <text x="1159" y="622" text-anchor="end" font-size="12" fill="#607585">自动跟随：开</text>
+            <g font-size="12">
+                <text x="275" y="654" fill="#607585">10.00 s</text>
+                <text x="364" y="654">人工暂停</text>
+                <text x="504" y="654" fill="#607585">GUI 请求已确认，保留当前现场</text>
+                <text x="275" y="682" fill="#607585">9.80 s</text>
+                <text x="364" y="682">动作已生效</text>
+                <text x="504" y="682" fill="#607585">车辆 001 · 批次 27</text>
+            </g>
+            <rect x="40" y="734" width="1140" height="26" fill="#edf1f3" />
+            <text x="54" y="752" font-size="12">暂停 · Tick 100 · 10.00 s</text>
+            <text x="1162" y="752" font-size="12" text-anchor="end" fill="#556674">地图：crosswalk ·
+                坐标单位 m</text>
+            <path d="M260 190V734M880 190V602M40 734H1180" stroke="#d5dde2" />
+        </g>
+        <rect x="40" y="110" width="1140" height="650" rx="8" fill="none" stroke="#b8c7d0" />
+        <text x="42" y="801" font-size="15">平直的停靠区域 · 小圆角控件 · 连续的主画布 · 有单位与版本的实际数据</text>
+        <text x="42" y="832" font-size="14" fill="#607585">此图说明区域关系与视觉密度，原生标题栏命中、窗口管理和交互行为另行验证。</text>
+    </g>
+</svg>

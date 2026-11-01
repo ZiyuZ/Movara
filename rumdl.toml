@@ -22,6 +22,7 @@ disable = ["MD013", "MD033", "MD036", "MD040", "MD045"]
 # List of file/directory patterns to include for linting (if provided, only these will be linted)
 include = [
   "docs/**/*.md",
+  "crates/*/docs/**/*.md",
   "src/**/*.md",
   "README.md",
   "AGENTS.md",

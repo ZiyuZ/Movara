@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1010" viewBox="0 0 1120 1010"
+    role="img" aria-labelledby="title desc">
+    <title id="title">界面颜色 · 浅色与深色候选</title>
+    <desc id="desc">色块对应参数表中的全部 15 个语义角色，底色展示各主题中的实际邻接关系。</desc>
+    <rect x="0" y="0" width="1120" height="1010" rx="16" fill="#f8fafc" stroke="none"
+        stroke-width="1" />
+    <text x="32" y="40" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="22" fill="#243747" text-anchor="start" font-weight="600">界面颜色 · 浅色与深色候选</text>
+    <text x="32" y="69" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="15" fill="#607585" text-anchor="start" font-weight="400">色块对应参数表中的全部 15
+        个语义角色，底色展示各主题中的实际邻接关系。</text>
+    <rect x="385" y="111" width="325" height="850" rx="6" fill="#F3F5F6" stroke="#D5DDE2"
+        stroke-width="1" />
+    <rect x="745" y="111" width="340" height="850" rx="6" fill="#20252B" stroke="#46525E"
+        stroke-width="1" />
+    <text x="48" y="143" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="16" fill="#556674" text-anchor="start" font-weight="600">语义 Token</text>
+    <text x="407" y="143" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="16" fill="#243747" text-anchor="start" font-weight="600">浅色主题</text>
+    <text x="767" y="143" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="16" fill="#E4EAF0" text-anchor="start" font-weight="600">深色主题</text>
+    <text x="48" y="193" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">surface.base</text>
+    <text x="48" y="213" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">应用基础表面</text>
+    <rect x="407" y="174" width="76" height="31" rx="3" fill="#F3F5F6" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="195" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#F3F5F6</text>
+    <rect x="767" y="174" width="76" height="31" rx="3" fill="#20252B" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="195" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#20252B</text>
+    <text x="48" y="244" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">surface.content</text>
+    <text x="48" y="264" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">面板、输入与内容区域</text>
+    <rect x="407" y="225" width="76" height="31" rx="3" fill="#FFFFFF" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="246" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#FFFFFF</text>
+    <rect x="767" y="225" width="76" height="31" rx="3" fill="#272D34" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="246" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#272D34</text>
+    <text x="48" y="295" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">surface.hover</text>
+    <text x="48" y="315" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">悬停背景</text>
+    <rect x="407" y="276" width="76" height="31" rx="3" fill="#E9EEF0" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="297" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#E9EEF0</text>
+    <rect x="767" y="276" width="76" height="31" rx="3" fill="#343D46" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="297" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#343D46</text>
+    <text x="48" y="346" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">surface.pressed</text>
+    <text x="48" y="366" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">按下状态</text>
+    <rect x="407" y="327" width="76" height="31" rx="3" fill="#DDE5E8" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="348" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#DDE5E8</text>
+    <rect x="767" y="327" width="76" height="31" rx="3" fill="#414D58" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="348" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#414D58</text>
+    <text x="48" y="397" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">text.primary</text>
+    <text x="48" y="417" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">正文和主要标签</text>
+    <rect x="407" y="378" width="76" height="31" rx="3" fill="#243747" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="399" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#243747</text>
+    <rect x="767" y="378" width="76" height="31" rx="3" fill="#E4EAF0" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="399" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#E4EAF0</text>
+    <text x="48" y="448" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">text.secondary</text>
+    <text x="48" y="468" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">次要信息</text>
+    <rect x="407" y="429" width="76" height="31" rx="3" fill="#556674" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="450" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#556674</text>
+    <rect x="767" y="429" width="76" height="31" rx="3" fill="#ACBAC7" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="450" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#ACBAC7</text>
+    <text x="48" y="499" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">border.subtle</text>
+    <text x="48" y="519" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">分隔线</text>
+    <rect x="407" y="480" width="76" height="31" rx="3" fill="#D5DDE2" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="501" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#D5DDE2</text>
+    <rect x="767" y="480" width="76" height="31" rx="3" fill="#46525E" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="501" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#46525E</text>
+    <text x="48" y="550" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">border.control</text>
+    <text x="48" y="570" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">输入及交互控件边界</text>
+    <rect x="407" y="531" width="76" height="31" rx="3" fill="#8796A1" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="552" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#8796A1</text>
+    <rect x="767" y="531" width="76" height="31" rx="3" fill="#778C9E" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="552" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#778C9E</text>
+    <text x="48" y="601" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">accent.primary</text>
+    <text x="48" y="621" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">品牌关联的交互强调与焦点</text>
+    <rect x="407" y="582" width="76" height="31" rx="3" fill="#176B68" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="603" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#176B68</text>
+    <rect x="767" y="582" width="76" height="31" rx="3" fill="#7DCCC4" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="603" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#7DCCC4</text>
+    <text x="48" y="652" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">selection.background</text>
+    <text x="48" y="672" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">当前选择底色</text>
+    <rect x="407" y="633" width="76" height="31" rx="3" fill="#DCEDEA" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="654" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#DCEDEA</text>
+    <rect x="767" y="633" width="76" height="31" rx="3" fill="#264C4B" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="654" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#264C4B</text>
+    <text x="48" y="703" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">selection.outline</text>
+    <text x="48" y="723" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">选择轮廓</text>
+    <rect x="407" y="684" width="76" height="31" rx="3" fill="#176B68" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="705" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#176B68</text>
+    <rect x="767" y="684" width="76" height="31" rx="3" fill="#7DCCC4" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="705" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#7DCCC4</text>
+    <text x="48" y="754" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">feedback.success</text>
+    <text x="48" y="774" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">操作成功</text>
+    <rect x="407" y="735" width="76" height="31" rx="3" fill="#256B45" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="756" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#256B45</text>
+    <rect x="767" y="735" width="76" height="31" rx="3" fill="#8BD3A6" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="756" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#8BD3A6</text>
+    <text x="48" y="805" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">feedback.warning</text>
+    <text x="48" y="825" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">警告</text>
+    <rect x="407" y="786" width="76" height="31" rx="3" fill="#875A16" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="807" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#875A16</text>
+    <rect x="767" y="786" width="76" height="31" rx="3" fill="#E7BF71" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="807" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#E7BF71</text>
+    <text x="48" y="856" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">feedback.error</text>
+    <text x="48" y="876" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">操作错误</text>
+    <rect x="407" y="837" width="76" height="31" rx="3" fill="#AF3443" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="858" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#AF3443</text>
+    <rect x="767" y="837" width="76" height="31" rx="3" fill="#F19AA4" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="858" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#F19AA4</text>
+    <text x="48" y="907" font-family="Consolas, monospace" font-size="15" fill="#243747"
+        text-anchor="start" font-weight="500">feedback.info</text>
+    <text x="48" y="927" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="12" fill="#607585" text-anchor="start" font-weight="400">普通信息</text>
+    <rect x="407" y="888" width="76" height="31" rx="3" fill="#2F638F" stroke="#8796A1"
+        stroke-width="1" />
+    <text x="503" y="909" font-family="Consolas, monospace" font-size="14" fill="#556674"
+        text-anchor="start" font-weight="400">#2F638F</text>
+    <rect x="767" y="888" width="76" height="31" rx="3" fill="#99C4EB" stroke="#778C9E"
+        stroke-width="1" />
+    <text x="863" y="909" font-family="Consolas, monospace" font-size="14" fill="#ACBAC7"
+        text-anchor="start" font-weight="400">#99C4EB</text>
+    <text x="48" y="990" font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif"
+        font-size="14" fill="#607585" text-anchor="start" font-weight="400">
+        色值为候选；正文、控件边界和焦点的对比度另行评价。交通信号与数据色阶使用独立配色。</text>
+</svg>

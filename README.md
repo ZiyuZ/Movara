@@ -44,7 +44,7 @@ Movara 面向自主式交通系统研究，旨在提供独立仿真内核、原�
 | [主体设计](docs/design/agents.md) | 实体与 Agent、主体操作、道路关系及查询 |
 | [运动模型](docs/design/motion.md) | 运动学模型、控制约束、数值推进与接触停驶 |
 | [执行与记录](docs/design/execution.md) | 逻辑时间、共享控制、命令解析、录制与回放 |
-| [桌面界面](docs/design/gui.md) | 交互、显示、信息检查与后续输出 |
+| [桌面界面](docs/design/gui.md) | 交互、显示、信息检查与后续输出；[工作区与视觉规范](crates/movara-app/docs/README.md) |
 | [Python API](docs/python-api/README.md) | 实例连接、控制回合、查询订阅、定时命令与事件回调 |
 | [开发指南](docs/development.md) | 技术选型、计算后端、工程质量与文档维护 |
 | [行为模型](docs/design/models.md) | 数据、交互样本、模型接入与评价 |
