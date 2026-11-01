@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Movara</title>
+  <desc id="desc">向右上方飞行的燕子，以深蓝、青绿与暖金色面构成，翼间留白呈流动的路径。</desc>
+  <defs>
+    <linearGradient id="navy" x1="330" y1="300" x2="950" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102F49"/>
+      <stop offset="1" stop-color="#0B2942"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="505" y1="310" x2="850" y2="970" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#47888D"/>
+      <stop offset="1" stop-color="#2F6972"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="1030" y1="650" x2="1000" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9AF60"/>
+      <stop offset="1" stop-color="#C89443"/>
+    </linearGradient>
+  </defs>
+  <!-- Upper wing: a narrow open channel separates its two planes. -->
+  <path fill="url(#navy)" d="M510 120C553 215 617 282 707 356C807 438 884 512 883 638C855 561 808 521 743 484C655 433 578 392 543 307C519 249 508 188 510 120Z"/>
+  <path fill="url(#teal)" d="M503 247C516 346 557 395 640 444C739 501 840 538 878 672C827 606 726 576 636 558C545 491 507 380 503 247Z"/>
+  <!-- Far wing and body share a continuous silhouette into the forked tail. -->
+  <path fill="url(#navy)" d="M268 414C347 495 468 539 613 575C724 603 802 623 826 676C848 723 811 759 750 790C648 841 582 883 530 943C421 1039 300 1097 170 1127C317 1060 436 983 472 932C485 913 469 912 440 915C361 922 257 941 148 955C301 914 471 876 591 815C650 785 680 755 694 714C710 667 727 641 753 626C583 613 445 607 357 543C314 499 284 451 268 414Z"/>
+  <path fill="url(#teal)" d="M384 572C486 618 625 621 753 626C724 642 708 672 694 714C684 744 671 768 646 787C659 753 610 726 557 698C482 660 420 615 384 572Z"/>
+  <!-- Near wing. -->
+  <path fill="url(#teal)" d="M530 943C595 863 660 835 752 820C828 807 886 803 937 787C927 831 898 869 853 886C787 913 714 900 656 903C604 903 562 921 530 943Z"/>
+  <!-- Head and throat; the chest channel stays transparent. -->
+  <path fill="url(#navy)" d="M877 673C923 639 955 602 1000 600C1037 597 1065 616 1088 631C1104 632 1120 637 1135 641C1107 647 1083 666 1067 685C1077 664 1086 650 1094 643C1051 642 1026 668 997 694C953 734 900 761 827 780C870 749 890 713 877 673Z"/>
+  <path fill="url(#gold)" d="M1094 643C1069 674 1053 716 1036 752C1015 796 990 825 960 848C991 814 1008 777 1009 751C1010 733 998 722 979 720C1020 685 1058 655 1094 643Z"/>
+</svg>

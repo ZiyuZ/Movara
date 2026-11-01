@@ -1,12 +1,34 @@
-# Movara
+<!-- rumdl-disable MD041 -->
 
-**A Multi-Agent Traffic Interaction Simulator**
+<div align="center">
+  <img src="docs/assets/movara.svg" alt="Movara 燕子标志" width="160" height="160">
+  <h1>Movara</h1>
+  <p><strong>面向自主式交通系统多主体交互的交通仿真平台</strong></p>
+  <p>A Multi-Agent Interaction Simulator for Autonomous Transportation Systems</p>
 
-多智能体交通交互与决策仿真平台，面向城市交通管理与交通交互研究。
+  <p>
+    <img src="https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square" alt="平台：Windows">
+    <a href="Cargo.toml"><img src="https://img.shields.io/badge/core-Rust-dea584?style=flat-square" alt="内核：Rust"></a>
+    <a href="crates/movara-python/pyproject.toml"><img src="https://img.shields.io/badge/API-Python-3776AB?style=flat-square" alt="API：Python"></a>
+  </p>
+
+  <p>
+    <a href="docs/requirements.md">平台需求</a> ·
+    <a href="docs/design/core.md">核心设计</a> ·
+    <a href="docs/python-api/README.md">Python API</a> ·
+    <a href="docs/development.md">开发指南</a> ·
+    <a href="docs/ROADMAP.md">路线图</a>
+  </p>
+</div>
+
+---
+
+> [!IMPORTANT]
+> Movara 当前处于早期开发阶段，正在完善设计与工程基础。功能、接口和数据格式可能发生较大调整。
 
 ## 项目目标
 
-Movara 旨在提供独立仿真内核、原生桌面界面和 Python 接口，支持机动车、非机动车与行人的持续交通和交互实验。
+Movara 面向自主式交通系统研究，旨在提供独立仿真内核、原生桌面界面和 Python 接口，支持机动车、非机动车与行人的多主体交互、协同决策和交通管理实验。
 
 世界以对象的位置、姿态、运动和轮廓为基础。道路与车道提供导航和交通规则语义，主体通过可组合的感知、通信、记忆和行为策略参与仿真。
 
