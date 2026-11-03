@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610" role="img" aria-labelledby="title desc">
+  <title id="title">轨迹点拖拽与约束反馈</title>
+  <desc id="desc">左侧示意局部硬边界约束，指针候选与有效位置分别显示。右侧示意需要全段计算的轨迹约束，保留上一份有效计划和超限候选草稿，等待用户修订。</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#e9eef2"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#607585"/></marker>
+  </defs>
+  <rect width="1120" height="610" rx="16" fill="#f8fafc"/>
+  <g font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif" fill="#243747">
+    <text x="32" y="42" font-size="23" font-weight="600">拖拽反馈表达已知边界与整体可行性</text>
+    <text x="32" y="73" font-size="15" fill="#607585">局部范围具有明确依据；几何、速度与时间耦合的条件通过生成工具重新判断。</text>
+    <rect x="28" y="105" width="516" height="456" rx="12" fill="#fff" stroke="#d5dfe6"/>
+    <rect x="576" y="105" width="516" height="456" rx="12" fill="#fff" stroke="#d5dfe6"/>
+    <text x="50" y="138" font-size="18" font-weight="600">局部边界可直接计算</text>
+    <text x="598" y="138" font-size="18" font-weight="600">全段生成后发现约束冲突</text>
+    <rect x="50" y="159" width="472" height="340" fill="url(#grid)"/>
+    <rect x="598" y="159" width="472" height="340" fill="url(#grid)"/>
+    <path d="M148 385L150 246Q210 192 385 196L411 352Q320 410 148 385Z" fill="#e6f1ee" stroke="#4b9185" stroke-dasharray="6 5"/>
+    <text x="162" y="454" font-size="14" fill="#607585">已知局部允许范围（示意）</text>
+    <path d="M76 435Q138 365 235 310T486 222" fill="none" stroke="#a1b2be" stroke-width="2" stroke-dasharray="7 5"/>
+    <path d="M76 435Q154 357 280 282T385 196" fill="none" stroke="#267d80" stroke-width="3"/>
+    <circle cx="235" cy="310" r="6" fill="#fff" stroke="#a1b2be" stroke-width="2"/>
+    <path d="M241 305L380 200" fill="none" stroke="#607585" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle cx="385" cy="196" r="8" fill="#fff" stroke="#267d80" stroke-width="3"/>
+    <circle cx="470" cy="181" r="8" fill="#fff" stroke="#bc7d2d" stroke-width="2" stroke-dasharray="3 2"/>
+    <path d="M394 195L460 183" stroke="#bc7d2d" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="303" y="242" font-size="14" fill="#267d80">有效位置</text>
+    <text x="428" y="213" font-size="14" fill="#95641e">指针候选</text>
+    <path d="M622 435C694 425 744 309 812 310S974 267 1042 230" fill="none" stroke="#91a5b3" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <path d="M622 435C704 425 733 243 887 214S1010 215 1042 230" fill="none" stroke="#b25b45" stroke-width="3"/>
+    <circle cx="812" cy="310" r="6" fill="#fff" stroke="#91a5b3" stroke-width="2"/>
+    <circle cx="887" cy="214" r="8" fill="#fff" stroke="#b25b45" stroke-width="3"/>
+    <path d="M818 304L880 223" fill="none" stroke="#607585" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <path d="M887 224V350H1025" fill="none" stroke="#b25b45" stroke-width="1.5"/>
+    <text x="902" y="376" font-size="14" fill="#a14d3c">转向变化率超限</text>
+    <text x="902" y="400" font-size="14" fill="#607585">调整路径或时间</text>
+    <text x="634" y="468" font-size="14" fill="#607585">虚线：上一份有效计划</text>
+    <g text-anchor="middle" font-size="14" fill="#607585">
+      <text x="286" y="533">限制有效点的位置，完整轨迹继续校验</text>
+      <text x="834" y="533">失败草稿保留，正式运行状态保持原样</text>
+    </g>
+  </g>
+</svg>

@@ -2,6 +2,9 @@ rumdl *paths=".":
     rumdl fmt {{ paths }}
     rumdl check --fix {{ paths }}
 
+ui-prototype:
+    bun.exe run --tsconfig-override=crates/movara-app/docs/prototype/tsconfig.json crates/movara-app/docs/prototype/build.ts
+
 fmt:
     cargo.exe fmt --all
 

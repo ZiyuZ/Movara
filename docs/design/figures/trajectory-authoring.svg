@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">轨迹编制、校验与执行</title>
+  <desc id="desc">通过点草稿、实际起始状态和能力约束共同输入生成工具。工具输出诊断与修订建议或带时间的完整轨迹，轨迹经提交和跟踪形成实际运动。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#267d80"/></marker>
+  </defs>
+  <rect width="1120" height="620" rx="16" fill="#f8fafc"/>
+  <g font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif" fill="#243747">
+    <text x="32" y="43" font-size="23" font-weight="600">少量条件编制轨迹，实际状态驱动执行</text>
+    <text x="32" y="74" font-size="15" fill="#607585">草稿与生成结果保留版本；参考计划、修订输入与实际运动分别记录。</text>
+    <g stroke="#267d80" stroke-width="2" fill="none" marker-end="url(#arrow)">
+      <path d="M180 212V326H400"/>
+      <path d="M560 212V278"/>
+      <path d="M940 212V326H720"/>
+      <path d="M480 374V412H180V460"/>
+      <path d="M560 374V460"/>
+      <path d="M720 502H800"/>
+    </g>
+    <g text-anchor="middle">
+      <rect x="40" y="124" width="280" height="88" rx="12" fill="#fff" stroke="#d5dfe6"/>
+      <text x="180" y="160" font-size="18" font-weight="600">实际起始状态</text>
+      <text x="180" y="187" font-size="14" fill="#607585">中心位姿、速度与状态版本</text>
+      <rect x="400" y="124" width="320" height="88" rx="12" fill="#fff" stroke="#d5dfe6"/>
+      <text x="560" y="160" font-size="18" font-weight="600">编制草稿</text>
+      <text x="560" y="187" font-size="14" fill="#607585">通过点、速度或到达时间</text>
+      <rect x="800" y="124" width="280" height="88" rx="12" fill="#fcf7eb" stroke="#d9c28c"/>
+      <text x="940" y="160" font-size="18" font-weight="600">约束与生成配置</text>
+      <text x="940" y="187" font-size="14" fill="#80672f">运动能力、规则与实验条件</text>
+      <rect x="400" y="278" width="320" height="96" rx="12" fill="#eaf3f2" stroke="#338b8c"/>
+      <text x="560" y="314" font-size="19" font-weight="600">生成与校验</text>
+      <text x="560" y="342" font-size="14" fill="#526e78">曲线、时间安排与声明的检查范围</text>
+      <rect x="40" y="460" width="280" height="84" rx="12" fill="#fcf7eb" stroke="#d9c28c"/>
+      <text x="180" y="494" font-size="18" font-weight="600">诊断与显式修订</text>
+      <text x="180" y="521" font-size="14" fill="#80672f">定位区段，调整条件后再生成</text>
+      <rect x="400" y="460" width="320" height="84" rx="12" fill="#fff" stroke="#338b8c"/>
+      <text x="560" y="494" font-size="18" font-weight="600">带时间的完整轨迹</text>
+      <text x="560" y="521" font-size="14" fill="#607585">采样位姿、速度与生效区间</text>
+      <rect x="800" y="460" width="280" height="84" rx="12" fill="#eaf3f2" stroke="#338b8c"/>
+      <text x="940" y="494" font-size="18" font-weight="600">提交与实际跟踪</text>
+      <text x="940" y="521" font-size="14" fill="#526e78">边界校验、运动输入与误差反馈</text>
+    </g>
+    <text x="580" y="426" font-size="14" fill="#607585">通过声明的检查</text>
+  </g>
+</svg>

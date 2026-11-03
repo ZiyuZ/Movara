@@ -8,6 +8,8 @@
 | [视觉与组件](visual-design.md) | 视觉原则、中文排版与原型评价 |
 | [设计参数](tokens.md) | 明暗主题、字体、尺寸、密度及参数调整规则 |
 | [组件与操作规则](components.md) | 控件状态、编辑提交、面板与命令面板候选 |
+| [轨迹编辑交互](trajectory-editor.md) | 通过点拖拽、约束提示、候选预览与干预提交 |
+| [工作区界面原型](prototype/README.md) | TSX 静态渲染、HTML/SVG 组件与工作区比较方式 |
 
 系统职责和启动模式见[桌面界面设计](../../../docs/design/gui.md)，世界与命令语义见[核心设计](../../../docs/design/core.md)和[执行与记录](../../../docs/design/execution.md)。本目录细化应用界面，跨模块语义在对应领域文档中维护。
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="730" viewBox="0 0 1120 730" role="img" aria-labelledby="title desc">
+  <title id="title">研究代码与仿真执行的职责边界</title>
+  <desc id="desc">外部 Python 研究模型与应用内 Rust 参考模型分别持有私有状态，经统一领域入口提交分层命令。内核解析控制并推进运动，提供带版本的状态、事件和实际反馈。外部恢复按需协作。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#267d80"/></marker>
+  </defs>
+  <rect width="1120" height="730" rx="16" fill="#f8fafc"/>
+  <g font-family="Segoe UI, Microsoft YaHei UI, Microsoft YaHei, sans-serif" fill="#243747">
+    <text x="32" y="44" font-size="23" font-weight="600">自由组织行为模型，统一解释仿真操作</text>
+    <text x="32" y="75" font-size="15" fill="#607585">外部研究程序与内置参考模型共享世界、时间、命令和反馈约定。</text>
+    <rect x="70" y="112" width="450" height="220" rx="14" fill="#fff" stroke="#d5dfe6"/>
+    <rect x="600" y="112" width="450" height="220" rx="14" fill="#edf5f4" stroke="#a7c9c8"/>
+    <g text-anchor="middle">
+      <text x="295" y="148" font-size="19" font-weight="600">Python 研究进程</text>
+      <text x="295" y="179" font-size="15" fill="#607585">模型、规划、训练框架与私有记忆</text>
+      <rect x="100" y="203" width="390" height="52" rx="9" fill="#f3f6f9" stroke="#d5dfe6"/>
+      <text x="295" y="234" font-size="16">查询与批量动作 · Python API</text>
+      <text x="295" y="291" font-size="14" fill="#80672f">中途恢复：按需保存外部状态</text>
+      <text x="825" y="148" font-size="19" font-weight="600">应用内 Rust 参考模型</text>
+      <text x="825" y="179" font-size="15" fill="#607585">基础路线跟随、目标行走与模型状态</text>
+      <rect x="630" y="203" width="390" height="52" rx="9" fill="#fff" stroke="#a7c9c8"/>
+      <text x="825" y="234" font-size="16">GUI 独立演示 · 进程内调用</text>
+      <text x="825" y="291" font-size="14" fill="#526e78">内置状态：随平台检查点保存</text>
+    </g>
+    <g fill="none" stroke="#267d80" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M295 332V395"/>
+      <path d="M825 332V395"/>
+      <path d="M560 477V541"/>
+      <path d="M70 610H32V230H100"/>
+      <path d="M1050 610H1088V230H1020"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="405" y="369" font-size="14" fill="#607585">经应用连接入口</text>
+      <text x="935" y="369" font-size="14" fill="#607585">经统一协调入口</text>
+      <rect x="120" y="395" width="880" height="82" rx="12" fill="#fff" stroke="#338b8c"/>
+      <text x="560" y="427" font-size="19" font-weight="600">统一领域接口与边界确认</text>
+      <text x="560" y="454" font-size="15" fill="#607585">目标与参考数据 · 时间轨迹 · 直接控制 · 来源与版本</text>
+      <text x="765" y="513" font-size="14" fill="#607585">校验能力与时序，解析有效控制组</text>
+      <rect x="70" y="541" width="980" height="135" rx="14" fill="#eaf3f2" stroke="#338b8c"/>
+      <text x="560" y="577" font-size="20" font-weight="600">内核维护权威世界与逻辑时间</text>
+      <text x="560" y="608" font-size="16">命令解析 → 跟踪与运动 → 接触处理 → 新状态</text>
+      <text x="560" y="644" font-size="15" fill="#526e78">只读查询、事件与实际执行反馈，按主体和状态版本关联</text>
+    </g>
+  </g>
+</svg>

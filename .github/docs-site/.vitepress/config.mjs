@@ -24,8 +24,18 @@ const platform = [
         items: [
             link('核心设计', 'docs/design/core'),
             link('路网与空间', 'docs/design/network'),
-            link('主体设计', 'docs/design/agents'),
-            link('运动模型', 'docs/design/motion'),
+            {
+                text: '主体与运动',
+                collapsed: false,
+                items: [
+                    link('主体总览', 'docs/design/agents/README'),
+                    link('状态与道路关系', 'docs/design/agents/state'),
+                    link('行为与控制', 'docs/design/agents/behavior'),
+                    link('模型接入与任务', 'docs/design/agents/policies'),
+                    link('运动与接触', 'docs/design/agents/motion'),
+                    link('轨迹编制与执行', 'docs/design/agents/trajectory'),
+                ],
+            },
             link('执行与记录', 'docs/design/execution'),
             link('行为模型', 'docs/design/models'),
             link('桌面界面', 'docs/design/gui'),
@@ -59,6 +69,8 @@ const app = [{
         link('视觉与组件', 'crates/movara-app/docs/visual-design'),
         link('设计参数', 'crates/movara-app/docs/tokens'),
         link('组件与操作规则', 'crates/movara-app/docs/components'),
+        link('轨迹编辑交互', 'crates/movara-app/docs/trajectory-editor'),
+        link('工作区原型', 'crates/movara-app/docs/prototype/README'),
     ],
 }];
 
